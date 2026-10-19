@@ -30,17 +30,7 @@ def update_balance(account_number,amount,transaction_type):
          print("Transaction Succesfull!!!")   
       else:
          print("Account not found!!")
-# def update_balance(account_number, amount, transaction_type):
-#     if account_number in customer:
-#         if transaction_type == "deposit":
-#             customer[account_number]["Balance"] += amount
-#         elif transaction_type == "withdraw" and customer[account_number]["Balance"] >= amount:
-#             customer[account_number]["Balance"] -= amount
-#         else:
-#             print("Insufficient balance!")
-#         print("Transaction successful!")
-#     else:
-#         print("Account not found!")
+
 
 
 
